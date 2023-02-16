@@ -5,7 +5,7 @@
       <div id="blue"></div>
     </div>
     <TheTypography
-      class="text"
+      class="text animate"
       text="We Love Animals"
       type="secondary"
       displaySize="2xl"
@@ -54,6 +54,32 @@ export default {
     z-index: 1;
     padding: 10px;
     color: $primaryGray;
+  }
+
+  .animate {
+    animation: slide-right 5s linear infinite;
+  }
+
+  @keyframes slide-right {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(98%);
+    }
+  }
+
+  .animate.reverse {
+    animation: slide-left 5s linear infinite;
+  }
+
+  @keyframes slide-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }
 </style>
