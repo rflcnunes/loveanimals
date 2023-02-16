@@ -25,6 +25,7 @@
         <img class="body_image" src="./assets/animalsBg.svg" alt="animals_bg" />
       </div>
     </div>
+    <TheFooter />
   </div>
 </template>
 
@@ -32,6 +33,7 @@
 import TheIconSvg from "./components/atoms/TheIconSvg.vue";
 import TheTypography from "./components/atoms/TheTypography.vue";
 import TheBanner from "./components/molecules/TheBanner.vue";
+import TheFooter from "./components/molecules/TheFooter.vue";
 import TheNavbar from "./components/molecules/TheNavbar.vue";
 
 export default {
@@ -41,7 +43,8 @@ export default {
     TheBanner,
     TheTypography,
     TheIconSvg,
-  },
+    TheFooter
+},
 };
 </script>
 

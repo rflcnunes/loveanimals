@@ -56,6 +56,10 @@ export default {
   &-primary {
     font-family: $primaryFontFamily;
   }
+
+  &-secondary {
+    font-family: $secondaryFontFamily;
+  }
 }
 
 .font-size {

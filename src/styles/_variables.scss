@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 $primaryBlue: #0b426f;
 $primaryYellow: #ffb800;
@@ -9,6 +9,7 @@ $primaryGray: #9A9A9A;
 
 // Fonts
 $primaryFontFamily: "Manrope", sans-serif;
+$secondaryFontFamily: 'Londrina Outline', cursive;
 
 $primaryFontWeight: 700;
 $secondaryFontWeight: 600;
@@ -26,7 +27,7 @@ $fontSizeDisplaySm: 30px;
 $fontSizeDisplayMd: 36px;
 $fontSizeDisplayLg: 48px;
 $fontSizeDisplayXl: 60px;
-$fontSizeDisplay2Xl: 72px;
+$fontSizeDisplay2Xl: 200px;
 
 // Weight
 $fontWeightRegular: 500;
