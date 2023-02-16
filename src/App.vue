@@ -94,7 +94,7 @@ export default {
 
     .body_the_image {
       .body_image {
-        width: 90%;
+        width: 75%;
         display: flex;
         align-items: center;
         margin: 0 auto;
