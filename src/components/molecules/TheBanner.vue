@@ -10,7 +10,7 @@
         ]"
         @click="selectedItemIndex = index"
       >
-        <TheTypography class="item" :text="item" displaySize="md" />
+        <TheTypography class="item" :text="item" displaySize="xl" />
       </li>
     </ul>
   </div>
@@ -62,7 +62,7 @@ export default {
     &--active {
       color: $primaryYellow;
       border-left: 5px solid $primaryYellow;
-      transition: all 0.5s ease;
+      transition: all 1s ease-out;
     }
   }
 }
