@@ -45,7 +45,7 @@ export default {
       bottom: 0;
       height: 50%;
       width: 100%;
-      background-color: blue;
+      background-color: $primaryBlue;
     }
   }
 
