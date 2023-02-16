@@ -37,8 +37,11 @@ export default {
   }
 
   &__social-media {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 29px;
     justify-content: space-between;
+    align-content: center;
   }
 }
 </style>
